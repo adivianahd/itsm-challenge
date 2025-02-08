@@ -16,12 +16,12 @@ export default function Table({ users }: TableProps) {
     <table className={styles.table}>
       <thead>
         <tr>
-          <th>NOMBRE</th>
-          <th>NOMBRE DE USUARIO</th>
-          <th>TELÉFONO</th>
+          <th>NAME</th>
+          <th>USERNAME</th>
+          <th>PHONE</th>
           <th>EMAIL</th>
-          <th>CIUDAD</th>
-          <th>EMPRESA</th>
+          <th>CITY</th>
+          <th>COMPANY</th>
         </tr>
       </thead>
       <tbody >

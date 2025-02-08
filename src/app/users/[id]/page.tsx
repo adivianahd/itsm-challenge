@@ -18,14 +18,23 @@ export default function UserDetail() {
   return (
     <div className={styles.cardLayout}>
       <Header showBack />
-      <h1>User Details</h1>
-      <br />{params.id}
-      <br />{user?.name}
-      <br />{user?.website}
-      <h1>Posts</h1>
-      <ul>
-        {posts?.map(post => (<li key={post.id}>{post.title}</li>))}
-      </ul>
+      <div >
+        <h1 className={styles.titleDetails}>{user?.name}</h1>
+        <p>Username: <strong>{user?.username}</strong></p>
+        <p>Email: <strong> {user?.email}</strong></p>
+        <p>Phone: <strong> {user?.phone}</strong></p>
+        <p>Website: <strong> {user?.website}</strong></p>
+      </div>
+
+      <div className={styles.contentCards}>
+      <h2>Posts:</h2>
+        {posts?.map(post => (
+          <div className={styles.cardDetails}>
+            <h3>{post.title}</h3>
+            <p>{post.body}</p>
+          </div>
+        ))}
+      </div>
     </div>
   )
 }
