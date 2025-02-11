@@ -61,7 +61,7 @@ table {
   width: 100%;
   flex-direction: column;
   background-color: #ffffff;  
-  padding: 0 40px;
+  padding: 0 40px 24px 12px;
   border-radius: 8px;
 }
 
