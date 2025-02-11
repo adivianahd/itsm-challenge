@@ -13,6 +13,14 @@ This is a base project created with **Next.js** and **TypeScript**, without the 
    ```bash
    git clone https://github.com/adivianahd/itsm-challenge.git
 
+   
+2. install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn i
+
+
 ## Getting Started
 
 First, run the development server:
@@ -21,10 +29,7 @@ First, run the development server:
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
