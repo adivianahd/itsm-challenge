@@ -24,7 +24,7 @@ export default function Header({ showBack = false }: HeaderProps) {
           <div className={styles.headerBack} onClick={gotoUsers()}>
           <Image          
             src={ArrowBack} 
-            alt="Volver al listado"
+            alt="back"
             width={25}
             height={25}
         />

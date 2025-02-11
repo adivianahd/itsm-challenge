@@ -14,9 +14,14 @@
   min-height: 100lvh;
 }
 
-.content {
+.content, .containerTable {
   display: flex;
   flex-direction: column;
+}
+
+.containerTable {
+  align-items: center;
+  justify-content: center;
 }
 
 .header {

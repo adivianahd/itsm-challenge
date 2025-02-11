@@ -29,7 +29,7 @@ export default function UserDetail() {
       <div className={styles.contentCards}>
       <h2>Posts:</h2>
         {posts?.map(post => (
-          <div className={styles.cardDetails}>
+          <div key={post.id} className={styles.cardDetails}>
             <h3>{post.title}</h3>
             <p>{post.body}</p>
           </div>
